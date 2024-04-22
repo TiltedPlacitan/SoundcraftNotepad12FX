@@ -73,7 +73,6 @@
 //
 // ============================================================================
 
-#include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -95,9 +94,8 @@ int main(int argc, char * argv[])
     const char * sources[NOTEPAD_12FX_NUM_SOURCES] = { "34", "56", "78", "LR" };
 
     unsigned char source = 0xFF;
-    if (argc > 1)
+    if (argc == 2)
     {
-        assert(argc == 2);
         for (int i = 0; i < NOTEPAD_12FX_NUM_SOURCES; i++)
         {
             if (!strcmp(argv[1], sources[i]))
