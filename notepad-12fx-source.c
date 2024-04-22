@@ -37,7 +37,7 @@
 //      STEREO 7/8
 //      MAIN L/R
 //
-// This little command-line program, written in C against Linux libusb allows
+// This little command-line program, written in C against Linux libusb, allows
 // you to easily switch sources.  It may be possible to use this on other
 // SOUNDCRAFT NOTEPAD mixers, but I have not tested it.
 //
