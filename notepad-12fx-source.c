@@ -42,7 +42,7 @@
 // SOUNDCRAFT NOTEPAD mixers, but I have not tested it.
 //
 // TO USE: from the command line
-//         the first invocation will set source to MIC 3/4
+//         the first invocation with no argument will set source to MIC 3/4
 //
 //      sudo notebook-12fx-source
 //
